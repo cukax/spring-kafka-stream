@@ -50,7 +50,7 @@ spring:
           destination: com.davinchicoder.events.user.validations.v1.verification.requested
           content-type: avro/bytes
           producer:
-            partitionCount: 1
+            partitionCount: 2
             useNativeEncoding: true
       default:
         binder: kafka-avro
